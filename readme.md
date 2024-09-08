@@ -42,6 +42,19 @@ Esta es una API RESTful para la gestión de productos y pedidos en una florister
    ```bash
    cd scripts/
    python init_db.py
+   
+6. **Ejecuta main**
+   ```bash
+   cd app/
+   python main.py
+
+## Documentacion
+
+   La docuementacion de la api se encuentra en Swagger y ReDoc una vez corrido el proyecto puedes acceder a cualquira de estos dos atravez de los siguientes links
+   ```bash
+   http://127.0.0.1:8000/docs
+   http://127.0.0.1:8000/redoc
+   
 
     
 
