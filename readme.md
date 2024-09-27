@@ -13,6 +13,7 @@ Esta es una API RESTful para la gestión de productos y pedidos en una florister
 - **Validación y Serialización**: Pydantic
 - **Configuración de Entorno**: Python-dotenv
 
+
 ## Instalación
 
 1. **Clonar el repositorio:**
@@ -25,6 +26,7 @@ Esta es una API RESTful para la gestión de productos y pedidos en una florister
 
     ```bash
     pip install fastapi==0.114.0 uvicorn==0.30.6 motor==3.5.1 pydantic==2.9.0 python-dotenv==1.0.1 pymongo==4.8.0
+
    
 3. **Crear base de datos:**
 
@@ -54,6 +56,9 @@ Esta es una API RESTful para la gestión de productos y pedidos en una florister
    ```bash
    http://127.0.0.1:8000/docs
    http://127.0.0.1:8000/redoc
+
+   
+
    
 
     

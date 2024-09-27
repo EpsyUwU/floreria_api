@@ -11,7 +11,7 @@ if not MONGODB_URI:
     raise ValueError("La URI de MongoDB no está configurada en las variables de entorno.")
 
 try:
-    client = MongoClient(MONGODB_URI, serverSelectionTimeoutMS=5000)
+    client = MongoClient(MONGODB_URI, serverSelectionTimeoutMS=10000)
     client.admin.command('ping')
     print("Pinged your deployment. You successfully connected to MongoDB!")
     db = client["floristeria_db"]
